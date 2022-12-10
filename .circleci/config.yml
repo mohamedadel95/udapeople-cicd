@@ -52,7 +52,7 @@ commands:
             aws cloudformation delete-stack --stack-name udapeople-backend-<< parameters.Workflow_ID >>
 #
   revert-migrations:
-    description: Revert the last migration, if any were executed during the current workflow
+    description: Revert the last migration,if any were executed during the current workflow
     parameters:
       Workflow_ID:
         type: string
