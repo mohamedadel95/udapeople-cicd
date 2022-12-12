@@ -295,6 +295,7 @@ jobs:
     docker:
       - image: cimg/base:stable
     steps:
+      - checkout
       - install_ansible
       - install_awscli
       - install_nodejs
