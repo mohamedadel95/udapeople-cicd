@@ -160,11 +160,15 @@ jobs:
       - restore_cache:
           keys: [ backend-deps ]
       - run:
+          name: Install dependencies
+          command: |
+            cd backend
+            npm install
+      - run:
           name: Back-end Scan
           command: |
             cd backend
             npm install
-            npm audit fix --force --audit-level=critical
             npm audit fix --force --audit-level=critical
             npm audit fix --force --audit-level=critical
             npm audit --audit-level=critical
