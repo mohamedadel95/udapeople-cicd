@@ -234,7 +234,7 @@ jobs:
 
   run-migrations:
     docker:
-      - image: cimg/node:14.2.0
+      - image: cimg/node:14.18.2
 
     steps:
       - checkout
