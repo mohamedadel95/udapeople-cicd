@@ -104,7 +104,9 @@
     "redux": "^4.0.3",
     "redux-actions": "^2.6.5",
     "redux-thunk": "^2.3.0",
-    "sweetalert2": "^8.13.4"
+    "sweetalert2": "^8.13.4",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5"
   },
   "jest": {
     "rootDir": "src",
